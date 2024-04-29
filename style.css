@@ -1,0 +1,10 @@
+.paragrafo-troncato {
+    white-space: nowrap; /* Impedisce al testo di andare a capo */
+    overflow: hidden; /* Nasconde il testo che supera la larghezza del contenitore */
+    text-overflow: ellipsis; /* Inserisce i puntini di sospensione quando il testo è troncato */
+    width:250px; /* Larghezza del contenitore del testo */
+  }
+
+  .bordo{
+    border: red solid 2px;
+  }
